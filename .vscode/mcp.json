@@ -1,0 +1,10 @@
+{
+  "inputs": [],
+  "servers": {
+    "yfinance": {
+      "type": "stdio",
+      "command": "pipx",
+      "args": ["run", "yfinance-mcp-server"]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code (keep MCP config)
+.vscode/*
+!.vscode/mcp.json
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Azure/azd local
+.azure/
+
+# Node (if any)
+node_modules/
+
+# Data outputs
+/data/
